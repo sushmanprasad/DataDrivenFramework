@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 13.855 sec <<< FAILURE!
+addCustomerTest(com.XXX.TestCases.AddCustomerTest)  Time elapsed: 2.832 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.XXX.Base.TestBase.click(TestBase.java:126)
+	at com.XXX.TestCases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:19)
+
+loginAsBankManager(com.XXX.TestCases.BankManagerLoginTest)  Time elapsed: 0.351 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.XXX.Base.TestBase.verifyEquals(TestBase.java:172)
+	at com.XXX.TestCases.BankManagerLoginTest.loginAsBankManager(BankManagerLoginTest.java:21)
+

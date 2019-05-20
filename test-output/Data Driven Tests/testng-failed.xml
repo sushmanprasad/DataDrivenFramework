@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Data Driven Tests]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.XXX.Listeners.CustomListeners"/>
+  </listeners>
+  <test name="Bank Manager Login Test(failed)">
+    <classes>
+      <class name="com.XXX.TestCases.BankManagerLoginTest">
+        <methods>
+          <include name="loginAsBankManager"/>
+        </methods>
+      </class> <!-- com.XXX.TestCases.BankManagerLoginTest -->
+      <class name="com.XXX.TestCases.AddCustomerTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.XXX.TestCases.AddCustomerTest -->
+    </classes>
+  </test> <!-- Bank Manager Login Test(failed) -->
+  <test name="Add Customer Test(failed)">
+    <classes>
+      <class name="com.XXX.TestCases.AddCustomerTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="addCustomerTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.XXX.TestCases.AddCustomerTest -->
+    </classes>
+  </test> <!-- Add Customer Test(failed) -->
+</suite> <!-- Failed suite [Data Driven Tests] -->
