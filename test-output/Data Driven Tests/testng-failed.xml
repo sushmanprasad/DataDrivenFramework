@@ -6,28 +6,17 @@
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
     <listener class-name="com.XXX.Listeners.CustomListeners"/>
   </listeners>
-  <test name="Bank Manager Login Test(failed)">
-    <classes>
-      <class name="com.XXX.TestCases.BankManagerLoginTest">
-        <methods>
-          <include name="loginAsBankManager"/>
-        </methods>
-      </class> <!-- com.XXX.TestCases.BankManagerLoginTest -->
-      <class name="com.XXX.TestCases.AddCustomerTest">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.XXX.TestCases.AddCustomerTest -->
-    </classes>
-  </test> <!-- Bank Manager Login Test(failed) -->
   <test name="Add Customer Test(failed)">
     <classes>
-      <class name="com.XXX.TestCases.AddCustomerTest">
+      <class name="com.XXX.TestCases.OpenAccountTest">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="addCustomerTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.XXX.TestCases.OpenAccountTest -->
+      <class name="com.XXX.TestCases.AddCustomerTest">
+        <methods>
+          <include name="addCustomerTest" invocation-numbers="1"/>
         </methods>
       </class> <!-- com.XXX.TestCases.AddCustomerTest -->
     </classes>

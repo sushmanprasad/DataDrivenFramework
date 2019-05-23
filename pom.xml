@@ -99,7 +99,9 @@
 			<testResource>
 				<directory>src/test/resources/Properties</directory>
 				<includes>
-					<include>Log4j.properties</include>
+					<include>log4j.properties</include>
+					<include>Config.properties</include>
+					<include>OR.properties</include>
 				</includes>
 			</testResource>
 		</testResources>

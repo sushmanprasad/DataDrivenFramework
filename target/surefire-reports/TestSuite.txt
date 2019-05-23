@@ -1,14 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 13.855 sec <<< FAILURE!
-addCustomerTest(com.XXX.TestCases.AddCustomerTest)  Time elapsed: 2.832 sec  <<< FAILURE!
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 17.942 sec <<< FAILURE!
+addCustomerTest(com.XXX.TestCases.AddCustomerTest)  Time elapsed: 6.964 sec  <<< FAILURE!
 java.lang.NullPointerException
-	at com.XXX.Base.TestBase.click(TestBase.java:126)
-	at com.XXX.TestCases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:19)
+	at com.XXX.Base.TestBase.click(TestBase.java:129)
+	at com.XXX.TestCases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:20)
 
-loginAsBankManager(com.XXX.TestCases.BankManagerLoginTest)  Time elapsed: 0.351 sec  <<< FAILURE!
+addCustomerTest(com.XXX.TestCases.AddCustomerTest)  Time elapsed: 0.073 sec  <<< FAILURE!
 java.lang.NullPointerException
-	at com.XXX.Base.TestBase.verifyEquals(TestBase.java:172)
+	at com.XXX.Base.TestBase.click(TestBase.java:129)
+	at com.XXX.TestCases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:20)
+
+loginAsBankManager(com.XXX.TestCases.BankManagerLoginTest)  Time elapsed: 0.119 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.XXX.Base.TestBase.verifyEquals(TestBase.java:194)
 	at com.XXX.TestCases.BankManagerLoginTest.loginAsBankManager(BankManagerLoginTest.java:21)
+
+openAccountTest(com.XXX.TestCases.OpenAccountTest)  Time elapsed: 0.076 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.XXX.Base.TestBase.click(TestBase.java:129)
+	at com.XXX.TestCases.OpenAccountTest.openAccountTest(OpenAccountTest.java:18)
 

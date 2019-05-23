@@ -34,7 +34,7 @@ public class TestUtil extends TestBase
 				new File(System.getProperty("user.dir") + "\\target\\test-output\\html\\" + screenshotName));
 
 	}
-	@DataProvider(name="dp")
+	@DataProvider(name="testData")
 	public Object[][] getData(Method m)
 	{
 		//Since excel sheetname is the same as the classname, we do the following to extract the classname

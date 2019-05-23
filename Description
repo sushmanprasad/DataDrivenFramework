@@ -1,3 +1,6 @@
 This contains Data Driven Framework as explained in Live Project 1 of Automation Architect 7 Live Projects Udemy Course
 
 uses extent reports, log4j, testng, data driven using excel, object properties are store in OR.properties file, Config.properties consists of other configuration details like browser, etc.
+
+Same object locators are not able to locate objects using Maven Test
+But the same object locators are able to locate same elements using TestNG Test

@@ -5,7 +5,7 @@
     <classes>
       <class name="com.XXX.TestCases.AddCustomerTest">
         <methods>
-          <include name="addCustomerTest" invocation-numbers="0"/>
+          <include name="addCustomerTest" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- com.XXX.TestCases.AddCustomerTest -->
       <class name="com.XXX.Base.TestBase">
@@ -19,6 +19,11 @@
           <include name="loginAsBankManager"/>
         </methods>
       </class> <!-- com.XXX.TestCases.BankManagerLoginTest -->
+      <class name="com.XXX.TestCases.OpenAccountTest">
+        <methods>
+          <include name="openAccountTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.XXX.TestCases.OpenAccountTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

@@ -3,19 +3,9 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.XXX.Listeners.CustomListeners">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.XXX.Listeners.CustomListeners -->
-      <class name="com.XXX.TestCases.AddCustomerTest">
-        <methods>
-          <include name="addCustomerTest" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.XXX.TestCases.AddCustomerTest -->
       <class name="com.XXX.TestCases.BankManagerLoginTest">
         <methods>
+          <include name="setup"/>
           <include name="loginAsBankManager"/>
         </methods>
       </class> <!-- com.XXX.TestCases.BankManagerLoginTest -->
