@@ -8,17 +8,28 @@
   </listeners>
   <test name="Add Customer Test(failed)">
     <classes>
+      <class name="com.XXX.TestCases.AddCustomerTest">
+        <methods>
+          <include name="addCustomerTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.XXX.TestCases.AddCustomerTest -->
       <class name="com.XXX.TestCases.OpenAccountTest">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.XXX.TestCases.OpenAccountTest -->
-      <class name="com.XXX.TestCases.AddCustomerTest">
-        <methods>
-          <include name="addCustomerTest" invocation-numbers="1"/>
-        </methods>
-      </class> <!-- com.XXX.TestCases.AddCustomerTest -->
     </classes>
   </test> <!-- Add Customer Test(failed) -->
+  <test name="Open Account Test(failed)">
+    <classes>
+      <class name="com.XXX.TestCases.OpenAccountTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="openAccountTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.XXX.TestCases.OpenAccountTest -->
+    </classes>
+  </test> <!-- Open Account Test(failed) -->
 </suite> <!-- Failed suite [Data Driven Tests] -->

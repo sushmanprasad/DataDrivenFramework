@@ -12,7 +12,7 @@ import com.XXX.Base.TestBase;
 public class BankManagerLoginTest extends TestBase
 {
 	@Test
-	public void loginAsBankManager() throws IOException, InterruptedException
+	public void bankManagerLoginTest() throws IOException, InterruptedException
 	{
 		//Following is a hard assertion as the test will not execute any further the following statement, since the following statement assertion fails
 		//Assert.assertEquals("abc", "xyz");

@@ -6,6 +6,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
+import org.testng.SkipException;
 
 import com.XXX.Base.TestBase;
 import com.XXX.Utilities.TestUtil;
@@ -14,9 +15,9 @@ import com.relevantcodes.extentreports.LogStatus;
 public class CustomListeners extends TestBase implements ITestListener
 {
 
-	public void onTestStart(ITestResult arg0) {
+	public void onTestStart(ITestResult arg0) 
+	{
 		test=extentReport.startTest(arg0.getName().toUpperCase());
-		
 	}
 
 	public void onTestSuccess(ITestResult arg0)
@@ -47,9 +48,11 @@ public class CustomListeners extends TestBase implements ITestListener
 		
 	}
 
-	public void onTestSkipped(ITestResult result) {
-		// TODO Auto-generated method stub
-		
+	public void onTestSkipped(ITestResult arg0) 
+	{
+		test.log(LogStatus.SKIP, arg0.getName().toUpperCase()+" Skipped the test as the Run mode is NO");
+		extentReport.endTest(test);
+		extentReport.flush();		
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {

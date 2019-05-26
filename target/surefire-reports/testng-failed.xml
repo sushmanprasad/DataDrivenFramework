@@ -16,7 +16,7 @@
       </class> <!-- com.XXX.Base.TestBase -->
       <class name="com.XXX.TestCases.BankManagerLoginTest">
         <methods>
-          <include name="loginAsBankManager"/>
+          <include name="bankManagerLoginTest"/>
         </methods>
       </class> <!-- com.XXX.TestCases.BankManagerLoginTest -->
       <class name="com.XXX.TestCases.OpenAccountTest">

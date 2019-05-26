@@ -3,11 +3,13 @@
            tests="1"
            failures="0"
            errors="0"
-           skipped="0"
-           time="0.563">
+           skipped="1"
+           time="0.004">
   <properties />
   
+            <testcase name="openAccountTest" time="0.0" classname="com.XXX.TestCases.OpenAccountTest">
+          <skipped />
+    </testcase>
   
-            <testcase name="openAccountTest" time="0.563" classname="com.XXX.TestCases.OpenAccountTest" />
-      
+  
 </testsuite>
