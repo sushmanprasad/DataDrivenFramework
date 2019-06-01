@@ -24,6 +24,7 @@ public class BankManagerLoginTest extends TestBase
 		//instead of writing code to click on button as following
 		//driver.findElement(By.cssSelector(OR.getProperty("bnkMgrLgnBtn_CSS"))).click();
 		//we use the following code to click
+		Thread.sleep(3000);
 		click("bnkMgrLgnBtn_XPATH");		
 		Assert.assertTrue(isElementPresent(By.xpath(OR.getProperty("addCustBtn_XPATH"))),"Login not successful!");
 		log.debug("Login successfully executed!");	

@@ -48,6 +48,7 @@ public class TestBase
 	public static WebDriverWait wait;
 	public ExtentReports extentReport=ExtentManager.getInstance();
 	public static ExtentTest test;
+	public static String browser;
 	@BeforeSuite
 	public void setup()
 	{
@@ -88,6 +89,15 @@ public class TestBase
 			{
 				e.printStackTrace();
 			}
+			if(System.getenv("browser")!=null && !System.getenv("browser").isEmpty())
+			{
+				browser=System.getenv("browser");
+			}
+			else
+			{
+				browser=Config.getProperty("browser");
+			}
+			Config.setProperty("browser", browser);
 			if((Config.getProperty("browser")).equals("Firefox"))
 			{
 				System.setProperty("webdriver.firefox.marionette", System.getProperty("user.dir")+"\\src\\test\\resources\\Executables\\geckodriver.exe");

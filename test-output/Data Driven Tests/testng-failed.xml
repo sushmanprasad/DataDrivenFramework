@@ -10,7 +10,7 @@
     <classes>
       <class name="com.XXX.TestCases.AddCustomerTest">
         <methods>
-          <include name="addCustomerTest" invocation-numbers="1"/>
+          <include name="addCustomerTest" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- com.XXX.TestCases.AddCustomerTest -->
       <class name="com.XXX.TestCases.OpenAccountTest">

@@ -6,7 +6,8 @@
       <class name="com.XXX.TestCases.BankManagerLoginTest">
         <methods>
           <include name="setup"/>
-          <include name="loginAsBankManager"/>
+          <include name="tearDown"/>
+          <include name="bankManagerLoginTest"/>
         </methods>
       </class> <!-- com.XXX.TestCases.BankManagerLoginTest -->
     </classes>

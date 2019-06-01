@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Data_Driven_Tests">
-              <span class="suite-name border-skipped">Data Driven Tests</span>
+              <span class="suite-name border-failed">Data Driven Tests</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,  2 skipped,  2 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,  2 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Data_Driven_Tests" class="hide-methods failed suite-Data_Driven_Tests"> (hide)</a> <!-- hide-methods failed suite-Data_Driven_Tests -->
+                      <a href="#" panel-name="suite-Data_Driven_Tests" class="show-methods failed suite-Data_Driven_Tests"> (show)</a> <!-- show-methods failed suite-Data_Driven_Tests -->
+                    </span>
+                    <div class="method-list-content failed suite-Data_Driven_Tests">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Tests" title="com.XXX.TestCases.AddCustomerTest" hash-for-method="addCustomerTest({postCode=5768, RunMode=Y, lastName=Arora, firstName=Raman, alertText=Customer added successfully wi...)">addCustomerTest({postCode=5768, RunMode=Y, lastName=Arora, firstName=Raman, alertText=Customer added successfully wi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Data_Driven_Tests -->
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -102,12 +116,12 @@
                     <div class="method-list-content skipped suite-Data_Driven_Tests">
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Tests" title="com.XXX.TestCases.AddCustomerTest" hash-for-method="addCustomerTest(Rahul, Tyagi, 1234, Customer added successfully with customer id, N)">addCustomerTest(Rahul, Tyagi, 1234, Customer added successfully with customer id, N)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Tests" title="com.XXX.TestCases.AddCustomerTest" hash-for-method="addCustomerTest({postCode=1234, RunMode=N, lastName=Tyagi, firstName=Rahul, alertText=Customer added successfully wi...)">addCustomerTest({postCode=1234, RunMode=N, lastName=Tyagi, firstName=Rahul, alertText=Customer added successfully wi...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Tests" title="com.XXX.TestCases.OpenAccountTest" hash-for-method="openAccountTest(Raman Arora, Rupee)">openAccountTest(Raman Arora, Rupee)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Tests" title="com.XXX.TestCases.OpenAccountTest" hash-for-method="openAccountTest({currency=Rupee, customer=Raman Arora})">openAccountTest({currency=Rupee, customer=Raman Arora})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Data_Driven_Tests -->
@@ -119,11 +133,6 @@
                       <a href="#" panel-name="suite-Data_Driven_Tests" class="show-methods passed suite-Data_Driven_Tests"> (show)</a> <!-- show-methods passed suite-Data_Driven_Tests -->
                     </span>
                     <div class="method-list-content passed suite-Data_Driven_Tests">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Tests" title="com.XXX.TestCases.AddCustomerTest" hash-for-method="addCustomerTest(Raman, Arora, 5768, Customer added successfully with customer id, Y)">addCustomerTest(Raman, Arora, 5768, Customer added successfully with customer id, Y)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Tests" title="com.XXX.TestCases.BankManagerLoginTest" hash-for-method="bankManagerLoginTest">bankManagerLoginTest</a> <!-- method navigator-link -->
@@ -141,6 +150,27 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Data_Driven_Tests" class="panel Data_Driven_Tests">
+          <div class="suite-Data_Driven_Tests-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.XXX.TestCases.AddCustomerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest({postCode=5768, RunMode=Y, lastName=Arora, firstName=Raman, alertText=Customer added successfully wi...)">
+                  </a> <!-- addCustomerTest({postCode=5768, RunMode=Y, lastName=Arora, firstName=Raman, alertText=Customer added successfully wi...) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">({postCode=5768, RunMode=Y, lastName=Arora, firstName=Raman, alertText=Customer added successfully with customer id})</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at java.lang.String.contains(String.java:2133)
+	at com.XXX.TestCases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:44)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Data_Driven_Tests-class-failed -->
           <div class="suite-Data_Driven_Tests-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
@@ -149,12 +179,12 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addCustomerTest(Rahul, Tyagi, 1234, Customer added successfully with customer id, N)">
-                  </a> <!-- addCustomerTest(Rahul, Tyagi, 1234, Customer added successfully with customer id, N) -->
+                  <a name="addCustomerTest({postCode=1234, RunMode=N, lastName=Tyagi, firstName=Rahul, alertText=Customer added successfully wi...)">
+                  </a> <!-- addCustomerTest({postCode=1234, RunMode=N, lastName=Tyagi, firstName=Rahul, alertText=Customer added successfully wi...) -->
                   <span class="method-name">addCustomerTest</span>
-                  <span class="parameters">(Rahul, Tyagi, 1234, Customer added successfully with customer id, N)</span>
+                  <span class="parameters">({postCode=1234, RunMode=N, lastName=Tyagi, firstName=Rahul, alertText=Customer added successfully with customer id})</span>
                   <div class="stack-trace">org.testng.SkipException: Skipping the test case as the Run mode for data set is NO
-	at com.XXX.TestCases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:22)
+	at com.XXX.TestCases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:24)
 ... Removed 25 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -169,34 +199,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="openAccountTest(Raman Arora, Rupee)">
-                  </a> <!-- openAccountTest(Raman Arora, Rupee) -->
+                  <a name="openAccountTest({currency=Rupee, customer=Raman Arora})">
+                  </a> <!-- openAccountTest({currency=Rupee, customer=Raman Arora}) -->
                   <span class="method-name">openAccountTest</span>
-                  <span class="parameters">(Raman Arora, Rupee)</span>
+                  <span class="parameters">({currency=Rupee, customer=Raman Arora})</span>
                   <div class="stack-trace">org.testng.SkipException: Skipping the test OPENACCOUNTTEST as the run mode is set to NO
-	at com.XXX.TestCases.OpenAccountTest.openAccountTest(OpenAccountTest.java:21)
+	at com.XXX.TestCases.OpenAccountTest.openAccountTest(OpenAccountTest.java:23)
 ... Removed 25 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Data_Driven_Tests-class-skipped -->
-          <div class="suite-Data_Driven_Tests-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.XXX.TestCases.AddCustomerTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addCustomerTest(Raman, Arora, 5768, Customer added successfully with customer id, Y)">
-                  </a> <!-- addCustomerTest(Raman, Arora, 5768, Customer added successfully with customer id, Y) -->
-                  <span class="method-name">addCustomerTest</span>
-                  <span class="parameters">(Raman, Arora, 5768, Customer added successfully with customer id, Y)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Data_Driven_Tests-class-passed -->
           <div class="suite-Data_Driven_Tests-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -289,24 +303,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addCustomerTest')
 data.setCell(0, 2, 'com.XXX.TestCases.AddCustomerTest')
-data.setCell(0, 3, 11222);
+data.setCell(0, 3, 16231);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'bankManagerLoginTest')
 data.setCell(1, 2, 'com.XXX.TestCases.BankManagerLoginTest')
-data.setCell(1, 3, 4169);
+data.setCell(1, 3, 6736);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'addCustomerTest')
-data.setCell(2, 2, 'com.XXX.TestCases.AddCustomerTest')
+data.setCell(2, 1, 'openAccountTest')
+data.setCell(2, 2, 'com.XXX.TestCases.OpenAccountTest')
 data.setCell(2, 3, 4);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'openAccountTest')
-data.setCell(3, 2, 'com.XXX.TestCases.OpenAccountTest')
-data.setCell(3, 3, 4);
+data.setCell(3, 1, 'addCustomerTest')
+data.setCell(3, 2, 'com.XXX.TestCases.AddCustomerTest')
+data.setCell(3, 3, 3);
 window.suiteTableData['Data_Driven_Tests']= { tableData: data, tableDiv: 'times-div-Data_Driven_Tests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
               <div id="times-div-Data_Driven_Tests">
               </div> <!-- times-div-Data_Driven_Tests -->
             </div> <!-- times-div -->
@@ -321,7 +335,7 @@ return data;
               <span class="reporter-method-name">bankManagerLoginTest</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output"><br>Verification failure: expected [abc] but found [xyz]<br></span>
-                <span class="reporter-method-output"><a target="_blank" href=Fri_May_24_21_32_40_AEST_2019.jpg><img src=Fri_May_24_21_32_40_AEST_2019.jpg height=200 width=200></img></a></span>
+                <span class="reporter-method-output"><a target="_blank" href=Sat_Jun_01_22_12_15_AEST_2019.jpg><img src=Sat_Jun_01_22_12_15_AEST_2019.jpg height=200 width=200></img></a></span>
                 <span class="reporter-method-output"><br></span>
                 <span class="reporter-method-output"><br></span>
               </div> <!-- reporter-method-output-div -->
@@ -351,29 +365,31 @@ return data;
               <div class="chronological-class-name">com.XXX.TestCases.BankManagerLoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">bankManagerLoginTest</span>
-                <span class="method-start">15862 ms</span>
+                <span class="method-start">18969 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.XXX.TestCases.AddCustomerTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">addCustomerTest(Raman, Arora, 5768, Customer added successfully with customer id, Y)</span>
-                <span class="method-start">26588 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addCustomerTest({postCode=5768, RunMode=Y, lastName=Arora, firstName=Raman, alertText=Customer added successfully wi...)</span>
+                <span class="method-start">30414 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">addCustomerTest(Rahul, Tyagi, 1234, Customer added successfully with customer id, N)</span>
-                <span class="method-start">37876 ms</span>
+                <span class="method-name">addCustomerTest({postCode=1234, RunMode=N, lastName=Tyagi, firstName=Rahul, alertText=Customer added successfully wi...)</span>
+                <span class="method-start">46928 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.XXX.TestCases.OpenAccountTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">openAccountTest(Raman Arora, Rupee)</span>
-                <span class="method-start">37971 ms</span>
+                <span class="method-name">openAccountTest({currency=Rupee, customer=Raman Arora})</span>
+                <span class="method-start">48961 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">38025 ms</span>
+                <span class="method-start">50887 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

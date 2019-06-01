@@ -23,6 +23,7 @@ public class AddCustomerTest extends TestBase
 			
 			throw new SkipException("Skipping the test case as the Run mode for data set is NO");
 		}
+		Thread.sleep(3000);
 		//driver.findElement(By.cssSelector(OR.getProperty("addCustBtn_CSS"))).click();
 		click("addCustBtn_XPATH");
 		Thread.sleep(2000);
