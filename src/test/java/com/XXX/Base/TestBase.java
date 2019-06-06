@@ -30,14 +30,17 @@ import com.relevantcodes.extentreports.LogStatus;
 
 public class TestBase 
 {
-	/* WebDriver - done
-	 * DB
-	 * Excel
+	/* WebDriver
+	 * Excel - Apache POI API
 	 * Logs - log4j jar file, .log files in resources, log4j.properties, logger class
-	 * Mail
-	 * Properties - done
+	 * Mail - Email the report to the relevant stakeholders
+	 * Properties - Log4j.properties, OR.properties, config.properties
 	 * ReportNG, ExtentReports to create customized reports
 	 * Jenkins
+	 * Maven
+	 * Listeners - Soft Assertions, Test Failure
+	 * Screenshot Utils
+	 * Runmodes
 	 */
 	public static WebDriver driver;
 	public static Properties Config=new Properties();
