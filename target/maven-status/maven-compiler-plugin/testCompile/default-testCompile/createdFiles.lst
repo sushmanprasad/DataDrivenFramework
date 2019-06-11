@@ -1,10 +1,15 @@
 com\XXX\Utilities\ExcelReader.class
+com\XXX\Utilities\MonitoringMail.class
 com\XXX\TestCases\AddCustomerTest.class
 com\XXX\Rough\TestTimeStamp.class
 com\XXX\Utilities\ExtentManager.class
 com\XXX\TestCases\BankManagerLoginTest.class
+com\XXX\Utilities\MonitoringMail$1.class
 com\XXX\TestCases\OpenAccountTest.class
 com\XXX\Rough\TestProperties.class
+com\XXX\Utilities\MonitoringMail$SMTPAuthenticator.class
 com\XXX\Listeners\CustomListeners.class
 com\XXX\Utilities\TestUtil.class
+com\XXX\Rough\TestHostAdd.class
 com\XXX\Base\TestBase.class
+com\XXX\Utilities\TestConfig.class

@@ -1,10 +1,13 @@
+E:\Selenium\SeleniumWebDriverAutomationProjects\DataDrivenFramework\src\test\java\com\XXX\Base\TestBase.java
+E:\Selenium\SeleniumWebDriverAutomationProjects\DataDrivenFramework\src\test\java\com\XXX\Utilities\MonitoringMail.java
+E:\Selenium\SeleniumWebDriverAutomationProjects\DataDrivenFramework\src\test\java\com\XXX\Rough\TestTimeStamp.java
+E:\Selenium\SeleniumWebDriverAutomationProjects\DataDrivenFramework\src\test\java\com\XXX\Utilities\TestUtil.java
+E:\Selenium\SeleniumWebDriverAutomationProjects\DataDrivenFramework\src\test\java\com\XXX\Utilities\TestConfig.java
+E:\Selenium\SeleniumWebDriverAutomationProjects\DataDrivenFramework\src\test\java\com\XXX\Rough\TestProperties.java
 E:\Selenium\SeleniumWebDriverAutomationProjects\DataDrivenFramework\src\test\java\com\XXX\TestCases\BankManagerLoginTest.java
 E:\Selenium\SeleniumWebDriverAutomationProjects\DataDrivenFramework\src\test\java\com\XXX\Listeners\CustomListeners.java
-E:\Selenium\SeleniumWebDriverAutomationProjects\DataDrivenFramework\src\test\java\com\XXX\Base\TestBase.java
-E:\Selenium\SeleniumWebDriverAutomationProjects\DataDrivenFramework\src\test\java\com\XXX\Rough\TestTimeStamp.java
 E:\Selenium\SeleniumWebDriverAutomationProjects\DataDrivenFramework\src\test\java\com\XXX\Utilities\ExcelReader.java
+E:\Selenium\SeleniumWebDriverAutomationProjects\DataDrivenFramework\src\test\java\com\XXX\Rough\TestHostAdd.java
 E:\Selenium\SeleniumWebDriverAutomationProjects\DataDrivenFramework\src\test\java\com\XXX\TestCases\AddCustomerTest.java
 E:\Selenium\SeleniumWebDriverAutomationProjects\DataDrivenFramework\src\test\java\com\XXX\Utilities\ExtentManager.java
 E:\Selenium\SeleniumWebDriverAutomationProjects\DataDrivenFramework\src\test\java\com\XXX\TestCases\OpenAccountTest.java
-E:\Selenium\SeleniumWebDriverAutomationProjects\DataDrivenFramework\src\test\java\com\XXX\Utilities\TestUtil.java
-E:\Selenium\SeleniumWebDriverAutomationProjects\DataDrivenFramework\src\test\java\com\XXX\Rough\TestProperties.java

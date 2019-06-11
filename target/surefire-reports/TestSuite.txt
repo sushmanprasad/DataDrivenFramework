@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 38.251 sec <<< FAILURE!
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 42.133 sec <<< FAILURE!
 addCustomerTest(com.XXX.TestCases.AddCustomerTest)  Time elapsed: 28.173 sec  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//button[@class='btn btn-lg tab'][@ng-click='addCust()']"}
 Command duration or timeout: 0 milliseconds
@@ -21,18 +21,18 @@ Command duration or timeout: 0 milliseconds
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at com.XXX.Base.TestBase.click(TestBase.java:133)
+	at com.XXX.Base.TestBase.click(TestBase.java:136)
 	at com.XXX.TestCases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:28)
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//button[@class='btn btn-lg tab'][@ng-click='addCust()']"}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
 System info: host: 'DESKTOP-RESTA8A', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_192'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SUSHMA~1/AppData/Local/Temp/anonymous8659855984306676262webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11884)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/SUSHMA~1/AppData/Local/Temp/anonymous8659855984306676262webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:918)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SUSHMA~1/AppData/Local/Temp/anonymous7709234547448786934webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11884)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/SUSHMA~1/AppData/Local/Temp/anonymous7709234547448786934webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:918)
 
-bankManagerLoginTest(com.XXX.TestCases.BankManagerLoginTest)  Time elapsed: 0.111 sec  <<< FAILURE!
+bankManagerLoginTest(com.XXX.TestCases.BankManagerLoginTest)  Time elapsed: 0.15 sec  <<< FAILURE!
 java.lang.NullPointerException
-	at com.XXX.Base.TestBase.verifyEquals(TestBase.java:204)
+	at com.XXX.Base.TestBase.verifyEquals(TestBase.java:207)
 	at com.XXX.TestCases.BankManagerLoginTest.bankManagerLoginTest(BankManagerLoginTest.java:21)
 

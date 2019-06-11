@@ -4,9 +4,9 @@
            failures="1"
            errors="0"
            skipped="1"
-           time="16.234">
+           time="13.562">
   <properties />
-            <testcase name="addCustomerTest" time="16.231" classname="com.XXX.TestCases.AddCustomerTest">
+            <testcase name="addCustomerTest" time="13.558" classname="com.XXX.TestCases.AddCustomerTest">
                 <failure type="java.lang.NullPointerException"
                   message="(null)"
               >
