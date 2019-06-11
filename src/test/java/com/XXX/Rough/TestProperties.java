@@ -23,7 +23,7 @@ public class TestProperties
 		OR.load(fis);
 		//read the corresponding value of the key from properties file
 		System.out.println(Config.getProperty("browser"));
-		System.out.println(OR.getProperty("bnkMgrLgnBtn"));
+		System.out.println(OR.getProperty("bnkMgrLgnBtn_XPATH"));
 		//When reading property file for object locators from test case, it should be like following
 		//driver.findElement(By.cssSelector(OR.getProperty("bnkMgrLgnBtn"))).click();
 		
