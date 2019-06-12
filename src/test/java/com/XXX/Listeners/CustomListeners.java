@@ -13,8 +13,6 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
-import org.testng.SkipException;
-
 import com.XXX.Base.TestBase;
 import com.XXX.Utilities.MonitoringMail;
 import com.XXX.Utilities.TestConfig;
