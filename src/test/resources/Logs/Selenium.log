@@ -1,3 +1,2 @@
-18:28:49,240 DEBUG devpinoyLogger:71 - Config file loaded!
-18:28:49,279 DEBUG devpinoyLogger:89 - OR file loaded!
-18:29:14,482 DEBUG devpinoyLogger:121 - Navigated to http://www.way2automation.com/angularjs-protractor/banking/#/login!
+16:22:22,194  INFO TestLogs:16 - Started the logging
+16:22:22,196 ERROR TestLogs:17 - Here the error logs will be printed

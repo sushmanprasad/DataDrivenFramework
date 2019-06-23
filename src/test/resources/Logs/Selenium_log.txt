@@ -1,0 +1,2 @@
+16:31:16,568  INFO TestLogs:17 - Started the logging
+16:31:16,569 ERROR TestLogs:18 - Here the error logs will be printed

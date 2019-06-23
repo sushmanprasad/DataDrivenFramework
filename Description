@@ -4,3 +4,9 @@ uses extent reports, log4j, testng, data driven using excel, object properties a
 
 Same object locators are not able to locate objects using Maven Test
 But the same object locators are able to locate same elements using TestNG Test
+
+Old version of Apache POI 3.6 is used in this project. Latest version 4.1.0 can be used
+Either Log4j1 or Log4j2 can be used. Here Log4j1 is used
+
+_${current.date} can be used just before the _log.txt extension do that a new log file with current date suffix is added everytime
+
